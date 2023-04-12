@@ -1,0 +1,5 @@
+{
+  "name": "ActivePrime CleanData Helper App",
+  "description": "Synchronizes Heroku Postgres connection with CleanData",
+  "repository": "https://gitlab.activeprime.com/ap_public/heroku_helper_app"
+}
