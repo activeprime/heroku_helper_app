@@ -4,11 +4,11 @@
   "repository": "https://gitlab.activeprime.com/ap_public/heroku_helper_app",
   "addons": [
     {
-      "plan": "activeprime-cleandata:test"
+      "plan": "activeprime-cleandata_staging:test"
     }
   ],
   "formation": {
-    "activeprime_cleandata": {
+    "activeprime_cleandata_staging": {
       "quantity": 0,
       "size": "standard-1x"
     }
