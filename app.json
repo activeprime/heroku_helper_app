@@ -1,5 +1,21 @@
 {
   "name": "ActivePrime CleanData Helper App",
   "description": "Synchronizes Heroku Postgres connection with CleanData",
-  "repository": "https://gitlab.activeprime.com/ap_public/heroku_helper_app"
+  "repository": "https://gitlab.activeprime.com/ap_public/heroku_helper_app",
+  "addons": [
+    {
+      "plan": "activeprime-cleandata:test"
+    }
+  ],
+  "formation": {
+    "activeprime_cleandata": {
+      "quantity": 0,
+      "size": "standard-1x"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/ryandotsmith/null-buildpack"
+    }
+  ]
 }
