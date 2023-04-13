@@ -1,4 +1,4 @@
-# ActivePrime CleanData Addon Helper
+# ActivePrime CleanData Bootstrap App
 
 
 
