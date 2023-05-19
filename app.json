@@ -10,7 +10,7 @@
   "formation": {
     "activeprime_cleandata": {
       "quantity": 1,
-      "size": "standard-1x"
+      "size": "private-s"
     }
   },
   "buildpacks": [
