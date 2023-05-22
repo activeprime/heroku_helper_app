@@ -1,1 +1,1 @@
-activeprime_cleandata_staging: sh ./syncpg.sh
+activeprime_cleandata: sh ./syncpg.sh
