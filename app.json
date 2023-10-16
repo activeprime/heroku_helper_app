@@ -8,9 +8,6 @@
     },
     {
       "plan": "heroku-postgresql:standard-4"
-    },
-    {
-      "plan": "herokuconnect:enterprise"      
     }
   ],
   "formation": {
