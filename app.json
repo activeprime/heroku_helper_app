@@ -4,7 +4,7 @@
   "repository": "https://gitlab.activeprime.com/ap_public/heroku_helper_app",
   "addons": [
     {
-      "plan": "activeprime-cleandata:duravant2023"
+      "plan": "activeprime-cleandata:dvcourtesy"
     }
   ],
   "formation": {
