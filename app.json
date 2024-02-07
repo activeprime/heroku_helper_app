@@ -4,7 +4,7 @@
   "repository": "https://gitlab.activeprime.com/ap_public/heroku_helper_app/ap-hbfuller-2024",
   "addons": [
     {
-      "plan": "activeprime-cleandata:ap-hbfuller-2024"
+      "plan": "activeprime-cleandata:ap-alcon-2024"
     },
     {
       "plan": "heroku-postgresql:standard-4"
