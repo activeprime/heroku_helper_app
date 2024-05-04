@@ -4,7 +4,7 @@
   "repository": "https://gitlab.activeprime.com/ap_public/heroku_helper_app",
   "addons": [
     {
-      "plan": "activeprime-cleandata-staging:dqa-private"
+      "plan": "activeprime-cleandata-staging:data-quality-assessment-private"
     }
   ],
   "formation": {
