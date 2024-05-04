@@ -5,12 +5,6 @@
   "addons": [
     {
       "plan": "activeprime-cleandata-staging:dqa-private"
-    },
-    {
-      "plan": "heroku-postgresql:standard-4"
-    },
-    {
-      "plan": "herokuconnect:enterprise"      
     }
   ],
   "formation": {
