@@ -4,7 +4,7 @@
   "repository": "https://gitlab.activeprime.com/ap_public/heroku_helper_app",
   "addons": [
     {
-      "plan": "activeprime-cleandata-staging:internal-test"
+      "plan": "activeprime-cleandata-staging:ap-packsize-2024"
     }
   ],
   "formation": {
