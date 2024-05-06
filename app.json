@@ -5,6 +5,9 @@
   "addons": [
     {
       "plan": "activeprime-cleandata-staging:ap-packsize-2024"
+    },
+    {
+      "plan": "heroku-postgresql:standard-4"
     }
   ],
   "formation": {
