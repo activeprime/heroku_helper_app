@@ -4,7 +4,7 @@
   "repository": "https://gitlab.activeprime.com/ap_public/heroku_helper_app",
   "addons": [
     {
-      "plan": "activeprime-cleandata:ap-freudenberg-2024"
+      "plan": "activeprime-cleandata:ap-whyoptimize-2024"
     },
     {
       "plan": "heroku-postgresql:standard-4"
