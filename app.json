@@ -4,13 +4,7 @@
   "repository": "https://gitlab.activeprime.com/ap_public/heroku_helper_app",
   "addons": [
     {
-      "plan": "activeprime-cleandata:data-quality-assessment"
-    },
-    {
-      "plan": "heroku-postgresql:standard-4"
-    },
-    {
-      "plan": "herokuconnect:enterprise"      
+      "plan": "activeprime-cleandata:data-quality-assessment-free"
     }
   ],
   "formation": {
