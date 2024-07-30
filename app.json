@@ -7,7 +7,7 @@
       "plan": "activeprime-cleandata:ap-gallagher-2024"
     },
     {
-      "plan": "heroku-postgresql:standard-4"
+      "plan": "heroku-postgresql:standard-2"
     }
   ],
   "formation": {
