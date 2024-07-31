@@ -1,5 +1,3 @@
-<img width="909" alt="image" src="https://github.com/user-attachments/assets/ce297c0f-c6c2-4e79-83e5-367acc3ae227"># ActivePrime CleanData Bootstrap App
-
 
 
 ## Getting started
