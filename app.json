@@ -1,10 +1,10 @@
 {
   "name": "ActivePrime CleanData Helper App",
   "description": "Synchronizes Heroku Postgres connection with CleanData",
-  "repository": "https://gitlab.activeprime.com/ap_public/heroku_helper_app/ap-21century-2024",
+  "repository": "https://gitlab.activeprime.com/ap_public/heroku_helper_app/ap-australiapost-2024",
   "addons": [
     {
-      "plan": "activeprime-cleandata:ap-21century-2024"
+      "plan": "activeprime-cleandata:ap-australiapost-2024"
     },
     {
       "plan": "heroku-postgresql:standard-4"
