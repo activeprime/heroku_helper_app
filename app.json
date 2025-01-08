@@ -1,10 +1,10 @@
 {
   "name": "ActivePrime CleanData Helper App",
   "description": "Synchronizes Heroku Postgres connection with CleanData",
-  "repository": "https://gitlab.activeprime.com/ap_public/heroku_helper_app/ap-TEMPLATE-YEAR",
+  "repository": "https://gitlab.activeprime.com/ap_public/heroku_helper_app/ap-sas-2025",
   "addons": [
     {
-      "plan": "activeprime-cleandata:ap-TEMPLATE-YEAR"
+      "plan": "activeprime-cleandata:ap-sas-2025"
     },
     {
       "plan": "heroku-postgresql:standard-4"
