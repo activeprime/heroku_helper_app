@@ -7,7 +7,7 @@
       "plan": "activeprime-cleandata:ap-TEMPLATE-YEAR"
     },
     {
-      "plan": "heroku-postgresql:standard-4"
+      "plan": "heroku-postgresql:TEMPLATE-HEROKU-PG-TYPE"
     }
   ],
   "formation": {
