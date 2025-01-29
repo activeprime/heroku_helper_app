@@ -8,6 +8,9 @@
     },
     {
       "plan": "heroku-postgresql:TEMPLATE-HEROKU-PG-TYPE"
+    },
+    {
+      "plan": "herokuconnect:enterprise"      
     }
   ],
   "formation": {
