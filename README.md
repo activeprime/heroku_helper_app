@@ -1,7 +1,5 @@
 # ActivePrime CleanData Bootstrap App
 
-Test Edit
-
 ## Getting started
 
 This helper app will deploy the ActivePrime CleanData addon, and sync the heroku postgres instance with CleanData.
