@@ -16,7 +16,7 @@
   "formation": {
     "activeprime_cleandata": {
       "quantity": 1,
-      "size": "standard-1x"
+      "size": "TEMPLATE-DYNO-NAME"
     }
   },
   "buildpacks": [
