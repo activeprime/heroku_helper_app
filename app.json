@@ -1,13 +1,13 @@
 {
   "name": "ActivePrime CleanData Helper App",
   "description": "Synchronizes Heroku Postgres connection with CleanData",
-  "repository": "https://gitlab.activeprime.com/ap_public/heroku_helper_app/ap-DQA-TEMPLATE-YEAR",
+  "repository": "https://gitlab.activeprime.com/ap_public/heroku_helper_app/ap-dqa-sixcredit-2025",
   "addons": [
     {
-      "plan": "activeprime-cleandata:ap-DQA-TEMPLATE-YEAR"
+      "plan": "activeprime-cleandata:ap-dqa-sixcredit-2025"
     },
     {
-      "plan": "heroku-postgresql:TEMPLATE-HEROKU-PG-TYPE"
+      "plan": "heroku-postgresql:standard-4"
     },
     {
       "plan": "herokuconnect:enterprise"      
@@ -16,7 +16,7 @@
   "formation": {
     "activeprime_cleandata": {
       "quantity": 1,
-      "size": "TEMPLATE-DYNO-NAME"
+      "size": "standard-1x"
     }
   },
   "buildpacks": [
