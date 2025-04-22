@@ -1,19 +1,19 @@
 {
   "name": "ActivePrime CleanData Helper App",
   "description": "Synchronizes Heroku Postgres connection with CleanData",
-  "repository": "https://gitlab.activeprime.com/ap_public/heroku_helper_app/ap-TEMPLATE-YEAR",
+  "repository": "https://gitlab.activeprime.com/ap_public/heroku_helper_app/ap-cdlite-airforceturbine-2025",
   "addons": [
     {
-      "plan": "activeprime-cleandata:ap-TEMPLATE-YEAR"
+      "plan": "activeprime-cleandata:ap-cdlite-airforceturbine-2025"
     },
     {
-      "plan": "heroku-postgresql:TEMPLATE-HEROKU-PG-TYPE"
+      "plan": "heroku-postgresql:standard-2"
     }
   ],
   "formation": {
     "activeprime_cleandata": {
       "quantity": 1,
-      "size": "TEMPLATE-DYNO-NAME"
+      "size": "standard-1x"
     }
   },
   "buildpacks": [
