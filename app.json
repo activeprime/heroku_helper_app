@@ -1,24 +1,28 @@
 {
-  "name": "ActivePrime CleanData Helper App",
-  "description": "Synchronizes Heroku Postgres connection with CleanData",
-  "repository": "https://gitlab.activeprime.com/ap_public/heroku_helper_app/ap-private-shield-dev",
-  "addons": [
+    "name": "ActivePrime CleanData Helper App",
+    "description": "Synchronizes Heroku Postgres connection with CleanData",
+    "repository": "https://gitlab.activeprime.com/ap_public/heroku_helper_app/ap-private-shield-io",
+    "addons":
+    [
+        {
+            "plan": "activeprime-cleandata:internal-test"
+        },
+        {
+            "plan": "heroku-postgresql:shield-s"
+        }
+    ],
+    "formation":
     {
-      "plan": "activeprime-cleandata-staging:internal-test"
+        "activeprime_cleandata":
+        {
+            "quantity": 1,
+            "size": "shield-s"
+        }
     },
-    {
-      "plan": "heroku-postgresql:shield-s"
-    }
-  ],
-  "formation": {
-    "activeprime_cleandata_staging": {
-      "quantity": 1,
-      "size": "shield-s"
-    }
-  },
-  "buildpacks": [
-    {
-      "url": "https://github.com/ryandotsmith/null-buildpack"
-    }
-  ]
+    "buildpacks":
+    [
+        {
+            "url": "https://github.com/ryandotsmith/null-buildpack"
+        }
+    ]
 }
