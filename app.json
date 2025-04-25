@@ -7,7 +7,7 @@
       "plan": "activeprime-cleandata-staging:internal-test"
     },
     {
-      "plan": "heroku-postgresql:shield-s"
+      "plan": "heroku-postgresql:shield-0"
     }
   ],
   "formation": {
