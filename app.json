@@ -1,7 +1,7 @@
 {
   "name": "ActivePrime CleanData Helper App",
   "description": "Synchronizes Heroku Postgres connection with CleanData",
-  "repository": "https://gitlab.activeprime.com/ap_public/heroku_helper_app/ap-globetax-2025",
+  "repository": "https://gitlab.activeprime.com/ap_public/heroku_helper_app/ap-globe-tax-2025",
   "addons": [
     {
       "plan": "activeprime-cleandata:ap-globe-tax-2025"
