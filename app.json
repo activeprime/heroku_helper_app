@@ -4,7 +4,7 @@
   "repository": "https://gitlab.activeprime.com/ap_public/heroku_helper_app/ap-globetax-2025",
   "addons": [
     {
-      "plan": "activeprime-cleandata:ap-globetax-2025"
+      "plan": "activeprime-cleandata:ap-globe-tax-2025"
     },
     {
       "plan": "heroku-postgresql:standard-2"
