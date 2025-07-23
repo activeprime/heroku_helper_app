@@ -5,6 +5,9 @@
   "addons": [
     {
       "plan": "activeprime-cleandata:internal-test"
+    },
+    {
+      "plan": "heroku-postgresql:private-2"
     }
   ],
   "formation": {
