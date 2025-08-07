@@ -7,13 +7,13 @@
       "plan": "activeprime-cleandata:ap-nyp-2025"
     },
     {
-      "plan": "heroku-postgresql:standard-4"
+      "plan": "heroku-postgresql:shield-2"
     }
   ],
   "formation": {
     "activeprime_cleandata": {
       "quantity": 1,
-      "size": "standard-1x"
+      "size": "shield-s"
     }
   },
   "buildpacks": [
