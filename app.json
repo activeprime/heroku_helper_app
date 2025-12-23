@@ -7,7 +7,7 @@
       "plan": "activeprime-cleandata:ap-dqa-davidyurman-2025"
     },
     {
-      "plan": "heroku-postgresql:standard-4"
+      "plan": "heroku-postgresql:standard-3"
     },
     {
       "plan": "herokuconnect:enterprise"      
