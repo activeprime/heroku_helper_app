@@ -7,7 +7,7 @@
       "plan": "activeprime-cleandata:ap-davidyurman-2026"
     },
     {
-      "plan": "heroku-postgresql:private-2"
+      "plan": "heroku-postgresql:private-3"
     }
   ],
   "formation": {
